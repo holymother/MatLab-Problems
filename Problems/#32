@@ -1,0 +1,9 @@
+% Most non-zero elements in a row
+% I did not come up with this myself
+function r = fullest_row(a)
+
+[row,~] = find(a)
+r = mode(row) %displays the row with the most non-zero elements
+
+
+end
